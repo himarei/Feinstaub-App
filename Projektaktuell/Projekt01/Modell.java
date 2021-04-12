@@ -7,14 +7,12 @@ public class Modell
     MLuftfeuchtigkeit messreiheL;
     MFeinstaub messreiheF;
     
-    Main main;
+    Messstation messstation;
     
     public Modell()
     {
-        messreiheT = new MTemperatur();
-        messreiheL = new MLuftfeuchtigkeit();
-        messreiheF = new MFeinstaub();
-        main = new Main();
+        
+        messstation = new Messstation();
         
         aktualisieren();
         ausgeben();
@@ -24,7 +22,7 @@ public class Modell
     
     private void aktualisieren()
     {   
-        main.aktualisieren();
+        messstation.aktualisieren();
         
     }
     
