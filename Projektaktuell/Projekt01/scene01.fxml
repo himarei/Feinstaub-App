@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111">
+  <tabs>
+    <Tab text="Home" />
+      <Tab text="Feinstaub">
+         <content>
+            <Pane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#000000a7" height="196.0" layoutX="464.0" layoutY="100.0" stroke="TRANSPARENT" strokeType="INSIDE" width="86.0" />
+                  <Circle fill="#ff1f1f" layoutX="508.0" layoutY="138.0" radius="22.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#ffac1f" layoutX="508.0" layoutY="196.0" radius="22.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#24ff1f" layoutX="508.0" layoutY="251.0" radius="22.0" stroke="BLACK" strokeType="INSIDE" />
+               </children>
+            </Pane>
+         </content>
+      </Tab>
+      <Tab text="Temperatur" />
+      <Tab text="Luftfeuchtigkeit" />
+      <Tab text="Vergleiche" />
+  </tabs>
+</TabPane>

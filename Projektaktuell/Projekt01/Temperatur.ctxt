@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Temperatur
+comment1.params=t\ j\ z\ w
+comment1.target=Temperatur(int,\ int,\ double,\ double)
+comment2.params=z
+comment2.target=void\ setZeit(double)
+comment3.params=t\ j
+comment3.target=void\ setDatum(int,\ int)
+comment4.params=w
+comment4.target=void\ setWert(double)
+comment5.params=
+comment5.target=int\ getTag()
+comment6.params=
+comment6.target=int\ getJahr()
+comment7.params=
+comment7.target=double\ getZeit()
+comment8.params=
+comment8.target=double\ getWert()
+numComments=9
