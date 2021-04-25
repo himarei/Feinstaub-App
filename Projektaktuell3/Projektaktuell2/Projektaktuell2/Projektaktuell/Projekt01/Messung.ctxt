@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Messung
+comment1.params=wert_\ erzeugtAm_
+comment1.target=Messung(double,\ java.lang.String)
+numComments=2

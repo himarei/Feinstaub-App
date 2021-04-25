@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=SenseMap
+comment1.params=
+comment1.target=java.lang.String\ nameEinlesen()
+comment2.params=
+comment2.target=java.util.ArrayList\ sensorenEinlesen()
+comment3.params=sensorId
+comment3.target=Messung\ getAktMessung(java.lang.String)
+comment4.params=sensorId
+comment4.target=java.util.ArrayList\ getVieleMessungen(java.lang.String)
+numComments=5

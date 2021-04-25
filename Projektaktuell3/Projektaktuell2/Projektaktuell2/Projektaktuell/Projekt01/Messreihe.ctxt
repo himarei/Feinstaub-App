@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Messreihe
+comment1.params=id_\ title_\ einheit_
+comment1.target=Messreihe(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.util.ArrayList\ getArrayList()
+comment3.params=
+comment3.target=java.lang.String\ getTitle()
+comment4.params=
+comment4.target=void\ ausgeben()
+numComments=5
