@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="1050.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab text="Home">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="411.0" prefWidth="822.0">
+               <children>
+                  <Rectangle fx:id="Hintergrund1" arcHeight="5.0" arcWidth="5.0" fill="#76baf8" height="526.0" layoutX="12.0" layoutY="13.0" stroke="BLACK" strokeType="INSIDE" width="1026.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d2d8dd" height="421.0" layoutX="473.0" layoutY="95.0" stroke="BLACK" strokeType="INSIDE" width="382.0" />
+                  <TextField fx:id="StadtEingabeFeld" layoutX="30.0" layoutY="24.0" prefHeight="66.0" prefWidth="362.0" promptText="Stadt/Plz">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </TextField>
+                  <Label fx:id="AnzeigeFeldUhrzeit" layoutX="525.0" layoutY="96.0" prefHeight="120.0" prefWidth="195.0" text="00:00">
+                     <font>
+                        <Font size="70.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="icon3" fitHeight="86.0" fitWidth="82.0" layoutX="31.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@3095177.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="icon1" fitHeight="87.0" fitWidth="83.0" layoutX="30.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@2784399.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="icon4" fitHeight="86.0" fitWidth="83.0" layoutX="30.0" layoutY="413.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@578135.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="icon2" fitHeight="90.0" fitWidth="89.0" layoutX="30.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@578113.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="ButtonUhrzeit" layoutX="152.0" layoutY="127.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="270.0" text="Uhrzeit">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="ButtonTemp" layoutX="152.0" layoutY="229.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="269.0" text="Temperatur  ">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="ButtonFein" layoutX="152.0" layoutY="331.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="270.0" text="Feinstaub">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="ButtonLuft" layoutX="152.0" layoutY="426.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="270.0" text="Luftfeuchtigkeit">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="AnzeigeFeldLuft" layoutX="525.0" layoutY="395.0" prefHeight="120.0" prefWidth="95.0" text="00 ">
+                     <font>
+                        <Font size="70.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="AnzeigeFeldFein" layoutX="525.0" layoutY="300.0" prefHeight="120.0" prefWidth="88.0" text="00">
+                     <font>
+                        <Font size="70.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="AnzeigeFeldTemp" layoutX="525.0" layoutY="207.0" prefHeight="103.0" prefWidth="89.0" text="00">
+                     <font>
+                        <Font size="70.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Celsius" layoutX="616.0" layoutY="207.0" prefHeight="103.0" prefWidth="89.0" text="C°">
+                     <font>
+                        <Font size="70.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="MikrogrammProKubikmeter" layoutX="616.0" layoutY="294.0" prefHeight="120.0" prefWidth="200.0" text="µg/m³">
+                     <font>
+                        <Font size="70.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="GrammProqQadratmeter" layoutX="613.0" layoutY="404.0" text="g/m³">
+                     <font>
+                        <Font size="70.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Luftfeuchtigkeit">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="Hintergrund3" arcHeight="5.0" arcWidth="5.0" fill="#76baf8" height="526.0" layoutX="14.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="1026.0" />
+                  <LineChart fx:id="Diagramm2" layoutX="37.0" layoutY="99.0">
+                     <xAxis>
+                        <CategoryAxis side="BOTTOM" />
+                     </xAxis>
+                     <yAxis>
+                        <NumberAxis side="LEFT" />
+                     </yAxis>
+                  </LineChart>
+                  <TextArea layoutX="698.0" layoutY="176.0" prefHeight="137.0" prefWidth="261.0" text="Die Luftfeuchtigkeit ist die Menge&#10; an Wasserdampf in der Luft&#10;EIne hohe Luftfeuchtigkeit gepaart mit&#10; einer hohen Temperatur sind für den &#10;Menschen sehr unangenehm und wird &#10;auch als schwüles Klima bezeichnet">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextArea>
+                  <Label layoutX="684.0" layoutY="116.0" text="Luftfeuchtigkeit Erklärung">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="82.0" layoutY="48.0" text="Luftfeuchtigkeit">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="HomeButton4" fitHeight="89.0" fitWidth="62.0" layoutX="951.0" layoutY="455.0" onMouseClicked="#homeButtongeklickt" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@home.png" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+        </content>
+      </Tab>
+      <Tab fx:id="Hintergrund4" text="Temperatur">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#76baf8" height="526.0" layoutX="12.0" layoutY="13.0" stroke="BLACK" strokeType="INSIDE" width="1026.0" />
+                  <LineChart fx:id="Diagramm3" layoutX="42.0" layoutY="94.0" prefHeight="419.0" prefWidth="500.0">
+                    <xAxis>
+                      <CategoryAxis side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis side="LEFT" />
+                    </yAxis>
+                  </LineChart>
+                  <Label layoutX="74.0" layoutY="30.0" prefHeight="66.0" prefWidth="274.0" text="Temperatur Verlauf :">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="582.0" layoutY="63.0" prefHeight="56.0" prefWidth="303.0" text="Temperatur Erklärung">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Label>
+                  <TextArea layoutX="582.0" layoutY="119.0" prefHeight="75.0" prefWidth="303.0" text="Die Temperatur gibt an, wie heiß oder wie kalt&#10;etwas ist. Sie wird bei uns meist in der &#10;Maßeinheit Grad Celsius angegeben.">
+                     <font>
+                        <Font size="14.0" />
+                     </font></TextArea>
+                  <ImageView fitHeight="228.0" fitWidth="307.0" layoutX="582.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="HomeButton2" fitHeight="89.0" fitWidth="62.0" layoutX="956.0" layoutY="460.0" onMouseClicked="#homeButtongeklickt" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@home.png" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+        </content>
+      </Tab>
+      <Tab fx:id="Hintergrund5" text="Uhrzeit">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#76baf8" height="526.0" layoutX="12.0" layoutY="13.0" stroke="BLACK" strokeType="INSIDE" width="1026.0" />
+                  <Label fx:id="Uhrzeit" layoutX="33.0" layoutY="31.0" prefHeight="438.0" prefWidth="725.0" text="00:00">
+                     <font>
+                        <Font size="300.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Datum" layoutX="43.0" layoutY="396.0" prefHeight="53.0" prefWidth="910.0" text="00.00.0000">
+                     <font>
+                        <Font size="60.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Sekundenzahl" layoutX="746.0" layoutY="191.0" text="00">
+                     <font>
+                        <Font size="150.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="HomeButton1" fitHeight="89.0" fitWidth="62.0" layoutX="953.0" layoutY="462.0" onMouseClicked="#homeButtongeklickt" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@home.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+      <Tab text="CO² Gehalt">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" onMouseClicked="#HomeButtonGeklickt" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Rectangle fx:id="Hintergrund2" arcHeight="5.0" arcWidth="5.0" fill="#76baf8" height="526.0" layoutX="12.0" layoutY="13.0" stroke="BLACK" strokeType="INSIDE" width="1026.0" />
+                  <LineChart fx:id="Diagramm1" layoutX="50.0" layoutY="58.0">
+                    <xAxis>
+                      <CategoryAxis side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis side="LEFT" />
+                    </yAxis>
+                  </LineChart>
+                  <Label layoutX="570.0" layoutY="72.0" prefHeight="44.0" prefWidth="283.0" text="CO² Erklärung">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Label>
+                  <TextArea layoutX="562.0" layoutY="129.0" prefHeight="123.0" prefWidth="333.0" text="Kohlenstoffdioxid ist ein Gas und ein wichtiges &#10;Bestandteil der Erdatmosphäre. Ein Problem ist&#10;dass immer mehr Kohlenstoffdioxid vom &#10;Menschen produziert wird, was sich negativ auf &#10;das Klima auswirkt.">
+                     <font>
+                        <Font size="14.0" />
+                     </font></TextArea>
+                  <ImageView fx:id="HomeButton3" fitHeight="89.0" fitWidth="62.0" layoutX="953.0" layoutY="458.0" onMouseClicked="#homeButtongeklickt" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@home.png" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+        </content>
+      </Tab>
+  </tabs>
+</TabPane>
