@@ -1,0 +1,159 @@
+import java.net.URL;
+import java.util.ResourceBundle;
+import javafx.fxml.FXML;
+import javafx.scene.chart.LineChart;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.Tab;
+import javafx.scene.control.TextField;
+import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.shape.Rectangle;
+
+public class PleaseProvideControllerClassName {
+
+    @FXML
+    private ResourceBundle resources;
+
+    @FXML
+    private URL location;
+
+    @FXML
+    private Rectangle Hintergrund1;
+
+    @FXML
+    private TextField StadtEingabeFeld;
+
+    @FXML
+    private Label AnzeigeFeldUhrzeit;
+
+    @FXML
+    private ImageView icon3;
+
+    @FXML
+    private ImageView icon1;
+
+    @FXML
+    private ImageView icon4;
+
+    @FXML
+    private ImageView icon2;
+
+    @FXML
+    private Button ButtonUhrzeit;
+
+    @FXML
+    private Button ButtonTemp;
+
+    @FXML
+    private Button ButtonFein;
+
+    @FXML
+    private Button ButtonLuft;
+
+    @FXML
+    private Label AnzeigeFeldLuft;
+
+    @FXML
+    private Label AnzeigeFeldFein;
+
+    @FXML
+    private Label AnzeigeFeldTemp;
+
+    @FXML
+    private Label Celsius;
+
+    @FXML
+    private Label MikrogrammProKubikmeter;
+
+    @FXML
+    private Label GrammProqQadratmeter;
+
+    @FXML
+    private Rectangle Hintergrund3;
+
+    @FXML
+    private LineChart<?, ?> Diagramm2;
+
+    @FXML
+    private ImageView HomeButton4;
+
+    @FXML
+    private Tab Hintergrund4;
+
+    @FXML
+    private LineChart<?, ?> Diagramm3;
+
+    @FXML
+    private ImageView HomeButton2;
+
+    @FXML
+    private Rectangle Hintergrund2;
+
+    @FXML
+    private LineChart<?, ?> Diagramm1;
+
+    @FXML
+    private ImageView HomeButton3;
+
+    @FXML
+    private Tab Hintergrund5;
+
+    @FXML
+    private Label Uhrzeit;
+
+    @FXML
+    private Label Datum;
+
+    @FXML
+    private Label Sekundenzahl;
+
+    @FXML
+    private ImageView HomeButton1;
+
+    @FXML
+    void HomeButtonGeklickt(MouseEvent event) {
+
+    }
+
+    @FXML
+    void homeButtongeklickt(MouseEvent event) {
+
+    }
+
+    @FXML
+    void initialize() {
+        assert Hintergrund1 != null : "fx:id=\"Hintergrund1\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert StadtEingabeFeld != null : "fx:id=\"StadtEingabeFeld\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert AnzeigeFeldUhrzeit != null : "fx:id=\"AnzeigeFeldUhrzeit\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert icon3 != null : "fx:id=\"icon3\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert icon1 != null : "fx:id=\"icon1\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert icon4 != null : "fx:id=\"icon4\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert icon2 != null : "fx:id=\"icon2\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert ButtonUhrzeit != null : "fx:id=\"ButtonUhrzeit\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert ButtonTemp != null : "fx:id=\"ButtonTemp\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert ButtonFein != null : "fx:id=\"ButtonFein\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert ButtonLuft != null : "fx:id=\"ButtonLuft\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert AnzeigeFeldLuft != null : "fx:id=\"AnzeigeFeldLuft\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert AnzeigeFeldFein != null : "fx:id=\"AnzeigeFeldFein\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert AnzeigeFeldTemp != null : "fx:id=\"AnzeigeFeldTemp\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert Celsius != null : "fx:id=\"Celsius\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert MikrogrammProKubikmeter != null : "fx:id=\"MikrogrammProKubikmeter\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert GrammProqQadratmeter != null : "fx:id=\"GrammProqQadratmeter\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert Hintergrund3 != null : "fx:id=\"Hintergrund3\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert Diagramm2 != null : "fx:id=\"Diagramm2\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert HomeButton4 != null : "fx:id=\"HomeButton4\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert Hintergrund4 != null : "fx:id=\"Hintergrund4\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert Diagramm3 != null : "fx:id=\"Diagramm3\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert HomeButton2 != null : "fx:id=\"HomeButton2\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert Hintergrund2 != null : "fx:id=\"Hintergrund2\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert Diagramm1 != null : "fx:id=\"Diagramm1\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert HomeButton3 != null : "fx:id=\"HomeButton3\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert Hintergrund5 != null : "fx:id=\"Hintergrund5\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert Uhrzeit != null : "fx:id=\"Uhrzeit\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert Datum != null : "fx:id=\"Datum\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert Sekundenzahl != null : "fx:id=\"Sekundenzahl\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+        assert HomeButton1 != null : "fx:id=\"HomeButton1\" was not injected: check your FXML file 'Layout für Wetterapp.fxml'.";
+
+    }
+}
